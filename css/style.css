@@ -9,6 +9,13 @@
     margin: 0 auto;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
 .col-1 {
     width: 8.33%;
 }
@@ -60,4 +67,11 @@
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.box{
+    background-color: #585353;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
 }
